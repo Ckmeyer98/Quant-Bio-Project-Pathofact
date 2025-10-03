@@ -13,6 +13,7 @@ Rapid, accurate identification of emerging bacterial pathogens is critical to th
 
 ![Figure 4. Using metagenomic datasets to visualize bacterial toxins using PathoFact]( https://media.springernature.com/lw685/springer-static/image/art%3A10.1186%2Fs40168-020-00993-9/MediaObjects/40168_2020_993_Fig4_HTML.png?as=webp)
 
+                                              Data
 Data for Goal 1 & 2: Recreate Figure 4 box + volcano plots using Pathofact pipeline
 Figure 4 of “PathoFact: a pipeline for the prediction of virulence factors and antimicrobial resistance genes in metagenomic data” uses publicly available metagenomic datasets from the 
 NCBI and European Bioinformatics Institute-Sequence Read (EBI) Archives. The datasets include: 
@@ -32,9 +33,8 @@ Accession ID: ERP019674
 Data for Goal 3: Using PathoFact 2.0 to predict bacterial toxin and virulence genes in pathogenic Escherichia coli strain isolated from patient stool samples. 
 Link: https://www.ncbi.nlm.nih.gov/bioproject/?term=PRJNA486009
 Accession ID: PRJNA486009
-
-Software Requirements:
-Pathofact:
+                                         Software Requirements
+Pathofact 1.0:
 Miniconda3 https://repo.anaconda.com/miniconda/Miniconda3-py37_4.9.2-Linux-x86_64.sh
 Pathofact https://git-r3lab.uni.lu/laura.denies/PathoFact.git
 SignalP (version 6.0) https://services.healthtech.dtu.dk/cgi-bin/sw_request?software=signalp&version=6.0&packageversion=6.0h&platform=fast
