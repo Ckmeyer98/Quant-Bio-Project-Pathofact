@@ -1,11 +1,12 @@
 Pathofact 1.0 vs Pathofact 2.0: Comparing Pipelines to Optimize Bacterial Virulence Prediction
-Clayton Meyer & Jailyn Loor
-Description
+Clayton Meyer & Jailyn Loor 
+
+                                           Description 
 
 Rapid, accurate identification of emerging bacterial pathogens is critical to the development of a life-saving clinical response. Advances in both prediction modeling and the availability of sequencing data present powerful tools for detecting microbial pathogenicity.
  Here, we attempt to replicate the box plot and volcano plots displaying predicted bacterial virulence factors (Fig. 4) with the novel Pathofact (Nies et al. 2021) pipeline. In subsequent work, the same authors developed PathoFact 2.0 (Sunyer et al., 2024), a refined pipeline for virulence prediction. We plan to recreate Figure 4 with both pipelines and compare. We also hope to expand the scope of the author’s prior work by using this pipeline to identify candidate virulence genes in other bacterial pathogens.
 
-Goals
+                                             Goals
 1.	Recreate Figure 4 box + volcano plots using Pathofact 1.0 pipeline
 2.	Recreate Figure 4 box + volcano plots using Pathofact 2.0 pipeline and compare with  Pathofact 1.0 pipeline
 3.	Use both pipelines to predict pathogenicity of different E. coli strains that are known pathogens to compare accuracy
