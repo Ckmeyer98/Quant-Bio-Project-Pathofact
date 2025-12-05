@@ -1,4 +1,6 @@
 #!/bin/bash
+
+
 #-------------------------
 #--------DownloadFASTq----
 #-------------------------
@@ -26,6 +28,8 @@ mkdir -p fastq  # make sure folder exists
 for run in $(cat runs.txt); do #here we are reading the content runs.txt and printing out an output, remember since this is in the shell we need $ to run the commpand
     fasterq-dump $run -O fastq #tool from NCBI SRA toolit downloads raw FASTQ sequence data for a giveen SRA ID, $run goes thru interation ofl oops, -0 fastq tells computer where to put the output
 done
+
+
 #-------------------------
 #--------metaSPAdes-------
 #-------------------------
@@ -35,8 +39,11 @@ done
 spades.py --meta \ -1 SRR2005635_1.fastq \ -2 SRR2005635_2.fastq \ -o SRR2005635_meta_assembly
 
 #created a for-loop to have metaSPAdes work on all my FASTQ files 
-#asked chat-gpt to help with this since we were struggling to create this. 
+
 for sample in $(ls *_1.fastq | sed 's/_1.fastq//'); do echo "Running metaSPAdes on $sample ..." spades.py --meta -1 ${sample}_1.fastq -2 ${sample}_2.fastq -o ${sample}_meta_assembly done
+
+
+
 #-------------------------
 #--------DeepARG----------
 #-------------------------
