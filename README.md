@@ -1,6 +1,7 @@
 Pathofact 1.0 vs Pathofact 2.0: Comparing Pipelines to Optimize Bacterial Virulence Prediction
 Clayton Meyer & Jailyn Loor 
 
+Presentation Link: https://docs.google.com/presentation/d/10-aNHkujS-QRwo8hTpKeMVV3EGnqtBk1/edit?usp=sharing&ouid=110743452944034568859&rtpof=true&sd=true
                                            Description 
 
 Rapid, accurate identification of emerging bacterial pathogens is critical to the development of a life-saving clinical response. Advances in both prediction modeling and the availability of sequencing data present powerful tools for detecting microbial pathogenicity.
