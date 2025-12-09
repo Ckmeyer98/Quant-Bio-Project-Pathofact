@@ -1,0 +1,5 @@
+#ARG	query-start	query-end	read_id	predicted_ARG-class	best-hit	probability	identity	alignment-length	alignment-bitscore	alignment-evalue	counts
+DFRC	1	161	NODE_575_length_1568_cov_2.520820	multidrug	AAO04716.1|FEATURES|dfrC|diaminopyrimidine|dfrC	0.147387000261	100.0	161	337.0	9.3e-93	1
+DFRC	1	161	NODE_575_length_1568_cov_2.520820	peptide	AAO04716.1|FEATURES|dfrC|diaminopyrimidine|dfrC	0.35164746149	100.0	161	337.0	9.3e-93	1
+MSRA	52	392	NODE_1609_length_1023_cov_3.508264	glycopeptide	undefined	0.163438907182	99.1	341	511.5	1.8e-145	1
+MSRA	52	392	NODE_1609_length_1023_cov_3.508264	tetracycline	undefined	0.290862032562	99.1	341	511.5	1.8e-145	1

@@ -1,0 +1,5 @@
+#ARG	query-start	query-end	read_id	predicted_ARG-class	best-hit	probability	identity	alignment-length	alignment-bitscore	alignment-evalue	counts
+RPOB2	27	1158	NODE_3_length_8122_cov_3.458039	multidrug	BAD59497.1|FEATURES|rpoB2|multidrug|rpoB2	0.995364684867	54.6	1218	1219.1	0.0e+00	1
+EMRB-QACA_FAMILY_MAJOR_FACILITATOR_TRANSPORTER	2	448	NODE_839_length_1353_cov_2.794299	multidrug	gi:329314850:gb:AEB89263.1:|FEATURES|EmrB-QacA_family_major_facilitator_transporter|multidrug|EmrB-QacA_family_major_facilitator_transporter	0.999783405706	54.1	447	453.8	5.9e-128	1
+TRUNCATED_PUTATIVE_RESPONSE_REGULATOR_ARLR	3	81	NODE_7896_length_400_cov_1.304348	unclassified	NC_002745.3251084.p01|FEATURES|truncated_putative_response_regulator_ArlR|unclassified|truncated_putative_response_regulator_ArlR	0.907569824335	86.1	79	147.5	2.7e-36	1
+ERMX	1	284	NODE_347_length_1864_cov_4.767275	MLS	ABG26481|FEATURES|ermX|MLS|ermX	0.99999988392	99.3	284	570.9	4.5e-163	1
