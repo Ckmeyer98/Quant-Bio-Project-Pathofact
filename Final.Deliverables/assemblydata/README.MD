@@ -1,3 +1,1 @@
-I have attached two example folders of the metaSPAdes output. 
-I am not uploading the whole folder from my computer, as it is too much 
-storage for github. 
+I have attached two example folders of the metaSPAdes output. However, I specfically pulled out the lines stating the different lengths of the contigs, to show many were produced. Adtionally, at the end of every run, the program told me the line of code sucessfully ran! I am not uploading the whole folder from my computer, as it is too much storage for github. 
